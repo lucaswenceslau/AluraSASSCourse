@@ -1,0 +1,15 @@
+
+@mixin bordas($raio: 0.3em) {
+    border-radius: $raio;
+    -webkit-border-radius: $raio;
+}
+@mixin sombra-botao {
+  box-shadow: 0 2px 6.65px 0.35px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 0 2px 6.65px 0.35px rgba(0, 0, 0, 0.3);
+
+}
+%sombra-botao{
+  box-shadow: 0 2px 6.65px 0.35px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 0 2px 6.65px 0.35px rgba(0, 0, 0, 0.3);
+
+}
